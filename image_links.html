@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        .gallery {
+            display: flex;
+                }
+
+        .gallery a {
+            flex: 1;
+            margin: 0 5px; /* Adjust margin as needed */
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 70%; /* Maintain aspect ratio */
+        }
+        #menu {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .menu-list li {
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .menu-list li a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .menu-list li img {
+            width: 100%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Webpage</h1>
+        <p>Explore the wonders of technology, nature, and culinary delights.</p>
+    </header>
+    <section id="home">
+        <h2>Home</h2>
+        <a href="https://placeholder-tech-url.com">
+            <img src="images/tech.jpg" alt="Technology Image" width="100%" height="auto" >
+        </a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- Add more images as needed -->
+            <a href="https://placeholder-nature-url.com">
+                <img src="images/nature1.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://placeholder-nature-url.com">
+                <img src="images/nature2.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://placeholder-nature-url.com">
+                <img src="images/nature3.jpg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu-list">
+            <!-- Replace with actual food items and images -->
+            <li><a href="https://placeholder-food-url.com">Food Item 1 <img src="images/food1.jpg" alt="Food Image 1"></a></li>
+            <li><a href="https://placeholder-food-url.com">Food Item 2 <img src="images/food2.jpg" alt="Food Image 2"></a></li>
+            <li><a href="https://placeholder-food-url.com">Food Item 3 <img src="images/food3.jpg" alt="Food Image 3"></a></li>
+        </ul>
+    </section>
+    <footer>
+        <p align="center">Thank you for visiting our webpage.</p>
+    </footer>
+</body>
+</html>
